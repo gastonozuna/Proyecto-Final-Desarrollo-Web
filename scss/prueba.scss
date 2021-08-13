@@ -6,24 +6,38 @@ body{
 
     }
 
-header{
-
-    background-color: white;
-
-}
 
 .backgroundMenu{
-
+    
     .backgroundMenu__link{
-
-
+        
+        
         &--active{
-
+            
             color: $activeColor;
             text-decoration: underline;
-
+            
         }
+        
+    }
+    
+}
 
+/* header styles */
+
+header{
+    
+    background-color: white;
+    padding-top: 0px;
+    grid-area: header;
+    z-index: 2;
+
+    a{
+        color: white;
+    }
+
+    a:hover{
+        color: $tittleColor;
     }
 
 }
@@ -137,7 +151,7 @@ $buttonSize:10 + 10px;
 .pAboutUs1{
 
     @extend .pAboutUs;
-    color: rgb(110, 25, 110);
+    color: $tittleColor;
 
 }
 
