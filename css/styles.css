@@ -4,25 +4,6 @@
     font-family: 'Bebas Neue';
 }
 
-/*nav styles*/
-
-nav{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    grid-area: nav;
-    display: flex;
-}
-
-nav a{
-    color: white;
-    font-size: 25px;
-    letter-spacing: 1px;
-    margin-right: 8px;
-}
-
-nav a:hover{
-    color: rgb(129, 129, 129);
-}
 
 .sectionNav{
     display: flex;
@@ -418,11 +399,11 @@ select{
 
 /* Media Queries */
 
-@media only screen and (max-width:320px){
+@media (max-width:320px){
 
     .gridContainer{
         grid-template-columns: 100%;
-        grid-template-rows: 100px 600px 100px;
+        grid-template-rows: 100px 650px 100px;
         grid-template-areas: "header"
                              "main"
                              "footer";
@@ -468,7 +449,7 @@ select{
     .aboutUsGrid{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 100px 120px 800px 100px;
+        grid-template-rows: 100px 120px 1400px 100px;
         grid-template-areas: "header"
                              "nav"
                              "main"
@@ -770,7 +751,7 @@ select{
 
     .gridContainer{
         grid-template-columns: 100%;
-        grid-template-rows: 100px 1000px 100px;
+        grid-template-rows: 100px 750px 100px;
         grid-template-areas: "header"
                              "main"
                              "footer";
@@ -827,7 +808,7 @@ select{
     .aboutUsGrid{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 100px 350px 1400px 100px;
+        grid-template-rows: 100px 350px 1250px 100px;
         grid-template-areas: "header"
                              "nav"
                              "main"

@@ -70,6 +70,20 @@ h1 {
   color: black;
   z-index: 1; }
 
+/*nav styles*/
+nav {
+  background-color: white;
+  width: 100%;
+  grid-area: nav;
+  display: flex; }
+  nav a {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-right: 8px; }
+  nav a:hover {
+    color: #818181; }
+
 /*footer Styles*/
 footer {
   margin-top: 50px;

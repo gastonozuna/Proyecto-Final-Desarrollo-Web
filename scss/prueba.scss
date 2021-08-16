@@ -172,6 +172,27 @@ h1{
 
 }
 
+/*nav styles*/
+
+nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    grid-area: nav;
+    display: flex;
+
+    a{
+       color: white;
+       font-size: 35px;
+       letter-spacing: 1px;
+       margin-right: 8px;
+    }
+
+
+    a:hover{
+        color: rgb(129, 129, 129);
+    }
+}
+
 /*footer Styles*/
 
 $footerSize: 30px - 5px;
