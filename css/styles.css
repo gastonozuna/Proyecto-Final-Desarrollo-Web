@@ -4,7 +4,6 @@
     font-family: 'Bebas Neue';
 }
 
-
 .sectionNav{
     display: flex;
 }
@@ -26,6 +25,7 @@
 
 .menuIndex{
     background-image: url("../images/homeImage.png");
+    filter: brightness(80%);
     background-position: center;
     height: 60%;
     text-align: center;
@@ -148,7 +148,6 @@ td p{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 /*form styles*/
@@ -305,7 +304,6 @@ select{
 
 .floraBox{
     grid-area: area4;
-    
 }
 
 .descriptionFlora{
@@ -609,7 +607,7 @@ select{
     .mainProductsGrid{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 500px;
+        grid-template-rows: 450px;
         grid-template-areas: "area1" 
                              "area2"
                              "area4"
@@ -705,6 +703,10 @@ select{
         font-size: 30px;
     }
 
+    h3{
+        font-size: 30px;
+    }
+
     .pAboutUs{
         font-size: 23px;
         margin: 30px 10px 10px 10px;
@@ -741,9 +743,6 @@ select{
         justify-content: center;
     }
 
-    h3{
-        font-size: 30px;
-    }
 
 }
 
@@ -751,7 +750,7 @@ select{
 
     .gridContainer{
         grid-template-columns: 100%;
-        grid-template-rows: 100px 750px 100px;
+        grid-template-rows: 100px 750px 150px;
         grid-template-areas: "header"
                              "main"
                              "footer";

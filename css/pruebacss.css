@@ -86,7 +86,7 @@ nav {
 
 /*footer Styles*/
 footer {
-  margin-top: 50px;
+  margin-top: 30px;
   height: 5vw;
   background-color: white;
   grid-area: footer; }
@@ -94,7 +94,21 @@ footer {
     color: #6e196e;
     text-align: center;
     font-size: 25px;
-    text-shadow: -3px 3px #949494; }
+    text-shadow: -10px 10px #949494; }
+  footer .footerIconBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  footer .igIconFooter {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px; }
+  footer .igIconFooter:hover {
+    transform: scale(1.2);
+    transition: all 700ms;
+    color: #6e196e; }
 
 .error {
   width: 100%;

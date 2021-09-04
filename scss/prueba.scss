@@ -199,7 +199,7 @@ $footerSize: 30px - 5px;
 
 footer{
 
-    margin-top: 50px;
+    margin-top: 30px;
     height: 5vw;
     background-color:rgb(255, 255, 255);
     grid-area: footer;
@@ -209,7 +209,33 @@ footer{
         color: rgb(110, 25, 110);
         text-align: center;
         font-size: $footerSize;
-        text-shadow: -3px 3px rgb(148, 148, 148);
+        text-shadow: -10px 10px rgb(148, 148, 148);
+
+    }
+
+    .footerIconBox{
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .igIconFooter{
+
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+
+    }
+
+    .igIconFooter:hover{
+
+        transform: scale(1.2);
+        transition: all 700ms;
+        color: $tittleColor;
 
     }
 
